@@ -16,7 +16,7 @@ def netbox_ipam_patch(ip_scope: str):
     """
     Scan a network and add them to NetBox
 
-    IP_SCOPE 192.168.0.0/24 (example)
+    IP_SCOPE 192.168.0.0/24 (IP_SCOPE example)
     """
 
     if not re.match(

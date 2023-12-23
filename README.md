@@ -56,7 +56,7 @@ Usage: console.py netbox-ipam-patch [OPTIONS] IP_SCOPE
 
   Scan a network and add it to NetBox
 
-  192.168.0.0/24 (example)
+  192.168.0.0/24 (IP_SCOPE example)
 
 Options:
   --help  Show this message and exit.
