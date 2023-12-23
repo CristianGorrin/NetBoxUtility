@@ -1,9 +1,3 @@
-# Prerequisites
-To install all the prerequisites, run:
-```bash
-./bin/prerequisites-install.sh
-```
-
 # (optional) Netbox dev server
 _This assumes that docker is installed_
 
@@ -31,6 +25,12 @@ services:
 ```
 
 # Utility
+To install all the prerequisites, run:
+```bash
+./bin/prerequisites-install.sh
+```
+
+
 1) Install by
 ```bash
 ./bin/utility-install.sh
