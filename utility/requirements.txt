@@ -1,0 +1,6 @@
+networkscan==1.0.9
+netbox-python==0.1.6
+tqdm==4.66.1
+click==8.1.7
+pydantic==2.5.3
+PyYAML==6.0.1
