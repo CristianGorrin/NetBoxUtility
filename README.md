@@ -38,8 +38,8 @@ To install all the prerequisites, run:
 2) Create a configuration file in `utility/configuration.yaml` with this format:
 ```yaml
 NetBox:
-  BaseUrl: http://127.0.0.1:8000
-  ApiToken: bde32ac44b7226452aa3c8dc266c88f07711ff32
+  base_url: http://127.0.0.1:8000
+  api_token: bde32ac44b7226452aa3c8dc266c88f07711ff32
 ```
 
 _List commands:_
