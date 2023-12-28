@@ -28,11 +28,11 @@ def netbox_ipam_patch(ip_scope: str):
 
     from helpers.configuration import Configuration
 
-    from utility.tasks.networkscan import ScanNetwork
+    from tasks.networkscan import ScanNetwork
     click.echo('Scanning network')
     scan_network_result = ScanNetwork(ip_scope)
 
-    from utility.tasks.patch_netbox import PatchNetbox, Args
+    from tasks.patch_netbox import PatchNetbox, Args
     click.echo('Updating NetBox')
     PatchNetbox(Configuration.NetBox.base_url, Configuration.NetBox.api_token, [Args(
         ip=x.ip,
